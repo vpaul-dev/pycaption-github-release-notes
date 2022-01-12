@@ -22,7 +22,7 @@ jobs:
 
     - name: Extract release notes for current version
       env:
-        TAG: ${{ github.ref }}
+        TAG: ${{ github.ref_name }}
       run: |
         sudo apt-get install -y --no-install-recommends pandoc
         pandoc docs/changelog.rst -f rst -t gfm -o changelog.md
