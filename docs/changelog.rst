@@ -14,7 +14,7 @@ Changelog
 - Implemented caption safe area limits (80% horizontally and 90% vertically)
 - Implemented SCC translator
 
-2.0.1013
+2.0.1014
 ^^^^^^^^
 - Added step for extracting release notes in github release workflow
 
